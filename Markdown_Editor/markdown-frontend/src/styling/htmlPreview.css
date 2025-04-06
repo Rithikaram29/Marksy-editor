@@ -1,0 +1,147 @@
+.preview {
+    font-family: 'Segoe UI', sans-serif;
+    color: #2d2d2d;
+    line-height: 1.6;
+    padding: 1rem;
+  }
+  
+  /* Headings */
+  .preview h1 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    border-bottom: 2px solid #eaecef;
+    padding-bottom: 0.3em;
+    margin-top: 1.5em;
+  }
+  
+  .preview h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    border-bottom: 1px solid #eaecef;
+    padding-bottom: 0.3em;
+    margin-top: 1.2em;
+  }
+  
+  .preview h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1em;
+  }
+  
+  .preview h4 {
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+  
+  .preview h5 {
+    font-size: 1.1rem;
+  }
+  
+  .preview h6 {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /* Paragraphs and inline styles */
+  .preview p {
+    font-size: 1rem;
+    margin: 1em 0;
+  }
+  
+  .preview strong {
+    font-weight: bold;
+  }
+  
+  .preview em {
+    font-style: italic;
+  }
+  
+  .preview del {
+    text-decoration: line-through;
+  }
+  
+  /* Lists */
+  .preview ul {
+    list-style-type: disc;
+    margin-left: 2rem;
+  }
+  
+  .preview ol {
+    list-style-type: decimal;
+    margin-left: 2rem;
+  }
+  
+  .preview li {
+    margin-bottom: 0.5em;
+  }
+  
+  /* Code blocks and inline code */
+  .preview code {
+    background-color: #f4f4f4;
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+    font-family: monospace;
+    font-size: 0.95rem;
+  }
+  
+  .preview pre {
+    background-color: #1e1e1e;
+    color: #f8f8f2;
+    padding: 1rem;
+    overflow-x: auto;
+    border-radius: 8px;
+    font-size: 0.95rem;
+  }
+  
+  .preview pre code {
+    background: none;
+    color: inherit;
+    padding: 0;
+  }
+  
+  /* Blockquotes */
+  .preview blockquote {
+    border-left: 4px solid #ccc;
+    padding-left: 1rem;
+    margin-left: 0;
+    color: #555;
+    font-style: italic;
+    background-color: #f9f9f9;
+  }
+  
+  /* Links */
+  .preview a {
+    color: #0366d6;
+    text-decoration: none;
+  }
+  
+  .preview a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Horizontal rule */
+  .preview hr {
+    border: none;
+    border-top: 1px solid #eaecef;
+    margin: 2em 0;
+  }
+  
+  /* Tables */
+  .preview table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1em 0;
+  }
+  
+  .preview th,
+  .preview td {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    text-align: left;
+  }
+  
+  .preview th {
+    background-color: #f6f8fa;
+    font-weight: bold;
+  }
+  
